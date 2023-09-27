@@ -162,3 +162,27 @@ function formatarTelefone(input) {
 
   input.value = numero;
 }
+
+
+const elementosClicaveis = document.querySelectorAll(".click");
+let fotoClicada = null;
+
+elementosClicaveis.forEach(elemento => {
+  elemento.addEventListener("click", () => {
+    if (fotoClicada !== null) {
+      fotoClicada.classList.remove("verde");
+      fotoClicada.querySelector(".texto-escondido").style.display = "none";
+    }
+
+    elemento.classList.add("verde");
+    elemento.querySelector(".texto-escondido").style.display = "block";
+
+    
+    elemento.classList.remove("animacao-rapida");
+
+ 
+    elemento.classList.add("animacao-lenta");
+
+    fotoClicada = elemento;
+  });
+});

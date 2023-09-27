@@ -105,6 +105,147 @@ header {
 /* FIM - MARCOS */
 
 /* COMEÇO - ALAN */
+.introducao{
+  text-align: center;
+  color: #FFFFFF;
+}
+.sobre-nos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  gap: 40px;
+  padding: 60px 40px;
+  height: 100%;
+}
+.nome{
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.primeiro-titulo{
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  color: #FFFFFF;
+  margin-top: 17px;
+}
+.nos-titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+  margin-bottom: 40px;
+}
+.segundo-titulo{
+  font-size: 22px;
+  text-align: center;
+  background-image: linear-gradient(to right,
+    #43bc70,
+    #36bc7c,
+    #28bc87,
+    #1bbb92,
+    #11ba9b,
+    #11b99e,
+    #13b7a0,
+    #16b6a2,
+    #18b59f,
+    #19b39c,
+    #1bb298,
+    #1db095);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.atuacao{
+  text-align: center;
+  color: #9ca3af;
+}
+
+
+.formato{
+  align-items: center;
+  object-fit: cover;
+  display: flex;
+  height: 250px;
+  width: 250px;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 15px; 
+  margin-bottom: 4%; 
+}
+
+.foto-integrantes{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid grey;
+  padding: 0.2rem;
+  width: 150px;
+  height:150px;
+}
+
+.cor-fundo{
+  background-color: #11b99e;
+}
+
+
+
+.grid-coluns1{
+  grid-template-columns: repeat(1, minmax(0,1fr));
+}
+@media (min-width: 768px){
+  .grid-coluns2 {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+  }
+}
+
+@media (min-width: 1280px){
+  .grid-coluns4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+.grid{
+  display: grid;
+}
+.gap-2rem{
+  gap: 2rem;
+}
+.click{
+    cursor: pointer;
+}
+
+.verde{
+  background-image: linear-gradient(to right,
+    #39b968,
+    #43bc70,
+    #36bc7c,
+    #28bc87,
+    #1bbb92,
+    #11ba9b,
+    #11b99e,
+    #13b7a0,
+    #16b6a2,
+    #18b59f,
+    #19b39c,
+    #1bb298,
+    #1db095);
+}
+
+.quadrado{
+  display: none;
+  background-color: #11b99d00;
+  height: 100px;
+  margin: 20px auto;
+  transition-duration: 1s;
+}
+.redi-pag{
+  font-size: 35px;
+}
 
 /* FIM - ALAN */
 

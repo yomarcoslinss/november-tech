@@ -102,6 +102,21 @@ header {
     border-radius: 5px;
 }
 
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.home img {
+    margin-top: 15px;
+    max-width: 2000px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* FIM - MARCOS */
 
 /* COMEÇO - ALAN */

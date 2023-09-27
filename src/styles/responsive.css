@@ -116,3 +116,9 @@
     
     
 }
+
+@media screen and (max-width: 800px) {
+    .home img {
+        margin-top: 15%;
+    }
+}

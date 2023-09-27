@@ -130,7 +130,8 @@ header {
   text-align: center;
   display: block;
   color: #FFFFFF;
-  margin-top: 17px;
+  margin-top: 30px;
+  margin-bottom: -10px;
 }
 .nos-titulo{
   display: flex;
